@@ -5,8 +5,9 @@ Automated image analysis of reef fish species in challenging environments, such 
 SEAMAPD21 was created to enable fishery scientists and researchers to process raw image-based data at high volumes at a much quicker rate than current manual methods. This open-source dataset contains 90,000 annotations for 130 species of fish from two annual surveys done in 2018 and 2019 in strategic areas of the Gulf of Mexico using baited remote underwater video systems to assess reef fish populations. We perform baseline experiments and document predictive classification results.
 
 ### Downloads
+
 |  Download           | Size       | MD5                              |
-|---------------------|----------------------------------------------------|------------|----------------------------------|
+|---------------------|------------|----------------------------------|
 | [SEAMAPD21-001.zip](https://grunt.sefsc.noaa.gov/parr/SEAMAPD21-001.zip) | 2111640253 | 56751d1084089b4a4c7f4106899793bb |
 | [SEAMAPD21-002.zip](https://grunt.sefsc.noaa.gov/parr/SEAMAPD21-002.zip) | 2098841908 | aa288ba4786558e92a8784afd875ffe6 |
 | [SEAMAPD21-003.zip](https://grunt.sefsc.noaa.gov/parr/SEAMAPD21-003.zip) | 2120369217 | 7dff7a31f10eaf8fc09c5095bbe50b1d |
