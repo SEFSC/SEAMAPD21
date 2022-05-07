@@ -1,3 +1,4 @@
+![SEAMAPD21 Project Image](https://github.com/SEFSC/SEAMAPD21/resource/seamapd21_bg_1091_326.png?raw=true)
 Here we present the first large-scale, fine-grained reef fish dataset from the Gulf of Mexico - the Southeast Area Monitoring and Assessment Program Dataset 2021 (SEAMAPD21).
 
 Automated image analysis of reef fish species in challenging environments, such as coastal Gulf of Mexico, are crucial for accurate fishery monitoring and stock assessments. As advanced computer vision techniques evolve in precision and capacity, previously difficult tasks such as fish species identification and count due to strong intra-species similarities and inter-species variations, have become feasible.
