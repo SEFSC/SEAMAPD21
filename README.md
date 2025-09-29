@@ -1,3 +1,11 @@
+> [!IMPORTANT]
+> **DEPRECATION NOTICE**
+> The SEAMAPD21 dataset was originally assembled to support early adaptation of machine learning. It has grown considerably since then. The latest version can now be accessed via the [NOAA Open Data Dissemination (NODD) program](https://console.cloud.google.com/storage/browser/nmfs_odp_sefsc/PEMD/Gulf%20of%20Mexico%20Reef%20Fish%20Annotated%20Library/For_Training;tab=objects?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false) and includes original videos, annotation files, and extracted images.
+>
+> **This SEAMAPD21 repository is deprecated and is no longer maintained.**
+>
+> For questions about SEAMAPD21 or the new maintained dataset, please contact Jack Prior (jack.prior@noaa.gov) or Matthew Campbell (matthew.campbell@noaa.gov).
+
 ![SEAMAPD21 Project Image](https://github.com/SEFSC/SEAMAPD21/blob/main/resource/seamapd21_bg_1091_326.png?raw=true)
 Here we present the first large-scale, fine-grained reef fish dataset from the Gulf of Mexico - the Southeast Area Monitoring and Assessment Program Dataset 2021 (SEAMAPD21).
 
