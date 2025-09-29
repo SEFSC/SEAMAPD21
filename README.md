@@ -1,10 +1,13 @@
 > [!IMPORTANT]
-> **DEPRECATION NOTICE**
+> **DEPRECATION NOTICE**  
+> 
 > The SEAMAPD21 dataset was originally assembled to support early adaptation of machine learning. It has grown considerably since then. The latest version can now be accessed via the [NOAA Open Data Dissemination (NODD) program](https://console.cloud.google.com/storage/browser/nmfs_odp_sefsc/PEMD/Gulf%20of%20Mexico%20Reef%20Fish%20Annotated%20Library/For_Training;tab=objects?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false) and includes original videos, annotation files, and extracted images.
->
+> 
 > **This SEAMAPD21 repository is deprecated and is no longer maintained.**
->
+> 
 > For questions about SEAMAPD21 or the new maintained dataset, please contact Jack Prior (jack.prior@noaa.gov) or Matthew Campbell (matthew.campbell@noaa.gov).
+
+# SEAMAPD21
 
 ![SEAMAPD21 Project Image](https://github.com/SEFSC/SEAMAPD21/blob/main/resource/seamapd21_bg_1091_326.png?raw=true)
 Here we present the first large-scale, fine-grained reef fish dataset from the Gulf of Mexico - the Southeast Area Monitoring and Assessment Program Dataset 2021 (SEAMAPD21).
@@ -23,7 +26,7 @@ cat SEAMAPD21.tar.gz* | tar xzvf -
 
 The CSV files are **[VIAME](https://www.viametoolkit.org/) CSV** files: system default comma separated value [detection file format](https://viame.readthedocs.io/en/latest/section_links/detection_file_conversions.html). Summarizing the [docs](https://viame.readthedocs.io/en/latest/section_links/detection_file_conversions.html#integrated-detection-formats):
 
-There are three parts to a VIAME csv. First, nine required fields, comma seperated, with a single line for either each detection, or each detection state, in a track:
+There are three parts to a VIAME csv. First, nine required fields, comma separated, with a single line for either each detection, or each detection state, in a track:
 
 | Column | Contents | Description |
 |:------:|----------|-------------|
@@ -37,19 +40,19 @@ There are three parts to a VIAME csv. First, nine required fields, comma seperat
 | 8 | Auxiliary Confidence  | Context-dependent (image or video): How likely this detection is an object, or the confidence in the length measurement, if present |
 | 9 | Target Length | If not present, specified with a value less than 0, most commonly “-1”|
 
-Detections can be linked onto tracks on multiple frames via sharing the same track ID field. Next, a sequence of optional species <=> score pairs, also comma seperated:
+Detections can be linked onto tracks on multiple frames via sharing the same track ID field. Next, a sequence of optional species <=> score pairs, also comma separated:
 
 | Column | Contents | Description |
 |:------:|----------|-------------|
 | 10 |  Class-name, object 1 |  Optional species ID |
 | 11 |  Score, object 1 |  Optional species score |
 
-There can be as many class, score pairs as necessary (*e.g.*, fields 12 and 13, 14 and 15, *etc.*). In the case of tracks, which may span multiple lines and thus have multiple probabilities per line, the probabilities from the last state in the track should be treated as the aggregate probability for the track and it’s okay for prior states to have no probability to prevent respecifying it. In the
+There can be as many class, score pairs as necessary (*e.g.*, fields 12 and 13, 14 and 15, *etc.*). In the case of tracks, which may span multiple lines and thus have multiple probabilities per line, the probabilities from the last state in the track should be treated as the aggregate probability for the track and it’s okay for prior states to have no probability to prevent re-specifying it. In the
 class and score list, the highest scoring entries should typically be listed first.
 
 Lastly, optional categorical values associated with each detection in the file
 after species/class pairs. Attributes are given via a keyword followed by any
-space seperate values the attribute may have. Possible attributes are:
+space separate values the attribute may have. Possible attributes are:
 
 | Attribute | Possible Values | Description |
 |:---------:|-----------------|---|
@@ -333,6 +336,6 @@ This file format is supported by most GUIs and detector training tools. It can b
 | [SEAMAPD21.tar.gz.kb](https://grunt.sefsc.noaa.gov/parr/SEAMAPD21.tar.gz.kb) | 104857600 | 9bd7f6871c83a5b2633a73422a565bba |
 | [SEAMAPD21.tar.gz.kc](https://grunt.sefsc.noaa.gov/parr/SEAMAPD21.tar.gz.kc) |  67908260 | 194ba6bde7323a8ea7a531dcf176a45f |
 
-
+## Disclaimer
 
 This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.
