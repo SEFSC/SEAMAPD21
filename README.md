@@ -10,6 +10,15 @@
 # SEAMAPD21
 
 ![SEAMAPD21 Project Image](https://github.com/SEFSC/SEAMAPD21/blob/main/resource/seamapd21_bg_1091_326.png?raw=true)
+
+************************************************************************************************
+CRITICAL UPDATE:
+Due to NOAA policies regarding moving all data to the cloud, the servers hosting these data were shutdown.  Thus the SEAMAPD21 repo is deprecated.  The training dataset has since been updated and can be found on NOAA's NODD cloud bucket at this address: https://console.cloud.google.com/storage/browser/nmfs_odp_sefsc/PEMD/Gulf%20of%20Mexico%20Reef%20Fish%20Annotated%20Library?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))
+
+See For_Training folder for images and annotations. The other files in this bucket folder contain information about the training data.
+
+***********************************************************************************************
+
 Here we present the first large-scale, fine-grained reef fish dataset from the Gulf of Mexico - the Southeast Area Monitoring and Assessment Program Dataset 2021 (SEAMAPD21).
 
 Automated image analysis of reef fish species in challenging environments, such as coastal Gulf of Mexico, are crucial for accurate fishery monitoring and stock assessments. As advanced computer vision techniques evolve in precision and capacity, previously difficult tasks such as fish species identification and count due to strong intra-species similarities and inter-species variations, have become feasible.
