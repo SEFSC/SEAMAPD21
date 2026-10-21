@@ -1,7 +1,7 @@
 > [!IMPORTANT]
 > **DEPRECATION NOTICE**  
 > 
-> The SEAMAPD21 dataset and this repository were originally assembled in 2021 to support early adaptation of machine learning. The dataset has grown considerably since then. The latest version, which includes the original videos, annotation files, and extracted images plus new data acquired since 2021, can now be accessed via the [NOAA Open Data Dissemination (NODD) program](https://console.cloud.google.com/storage/browser/nmfs_odp_sefsc/PEMD/Gulf%20of%20Mexico%20Reef%20Fish%20Annotated%20Library/For_Training;tab=objects?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false).
+> The SEAMAPD21 dataset and this repository were originally assembled in 2021 to support early adaptation of machine learning. The dataset has grown considerably since then. The latest version, which includes the original videos, annotation files, and extracted images plus new data acquired since 2021, can now be accessed via the [NOAA Open Data Dissemination (NODD) program](https://console.cloud.google.com/storage/browser/nmfs_odp_sefsc/PEMD/Gulf%20of%20Mexico%20Reef%20Fish%20Annotated%20Library?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))).
 > 
 > **This SEAMAPD21 repository is deprecated as of 2026 and is no longer maintained. Due to NOAA-wide data migration mandates, these data no longer reside at the links provided below. Attempts to download them from here will fail. Please use the link above instead.**
 > 
